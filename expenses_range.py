@@ -1,0 +1,9 @@
+total = 0
+expenses = []
+
+for i in range (7):
+    expenses.append(float(input("Enter an expense:")))
+
+total = sum(expenses)
+
+print("You spent $", str(total), "on coffees out this week.")
