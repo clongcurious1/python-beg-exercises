@@ -1,0 +1,17 @@
+#get words from the user
+relative = input('Name your favorite relative:\n')
+room = input('Pick a room in your house:\n')
+habit = input('Name a behavior that makes you crazy:\n')
+emotion = input('How did you feel when you woke up this morning:\n')
+sport = input('Name your favorite sport to watch on tv:\n')
+city = input('What city did you visit most recently:\n')
+daypart = input('What is your favorite time of day:\n')
+#combine words to make a simple blues song
+print("Woke up this mornin'")
+print(relative + " was in the " + room)
+print("Woke up this mornin'")
+print(relative, "was", habit, "in the", room)
+print("Woke up this mornin'")
+print("Feelin'", emotion)
+print("So dang", emotion)
+print("Like that time I was playing", sport, "in", city, "by myself on a Sunday", daypart)
