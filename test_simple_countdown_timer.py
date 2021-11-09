@@ -1,0 +1,92 @@
+import time
+import datetime
+
+current_date = datetime.datetime.now()
+print("Today's date is", current_date, '.')
+time.sleep(2)
+
+print('\nIt typically takes about 14 days') 
+print('for an animal shelter to process a pet adoption form.')
+time.sleep(2)
+
+print("\nHere's a handy calendar to help you use that time wisely!")
+time.sleep(2)
+
+visit_shelter = current_date + datetime.timedelta(days=1)
+print('\nDate:', visit_shelter)
+print('Tomorrow, visit your local animal shelter.')
+time.sleep(2)
+print('Discuss your adoption prerequisites with shelter staff,') 
+time.sleep(2)
+print('and meet several possible pet matches.') 
+time.sleep(2)
+print("DON'T sign the adoption papers today!")
+time.sleep(2)
+
+think_over = current_date + datetime.timedelta(days=2)
+print('\nDate:', think_over)
+time.sleep(2)
+print('\nGo home and think about the animals you met.')
+time.sleep(2)
+print('Allow at least 24hrs to make this important decision.')
+time.sleep(2)
+
+make_decision = current_date + datetime.timedelta(days=3)
+print('\nDate:', make_decision)
+time.sleep(2)
+print("Make your decision. If possible, identify your Top 2 choices.")
+time.sleep(2)
+
+submit_form = current_date + datetime.timedelta(days=4)
+print('\nDate:', submit_form)
+time.sleep(2)
+print("Submit your pet adoption application online or in-person.")
+time.sleep(2)
+
+purchase_supplies = current_date + datetime.timedelta(days=5)
+print('\nDate:', purchase_supplies)
+time.sleep(2)
+print("Purchase supplies from local merchants.")
+time.sleep(2)
+
+order_supplies = current_date + datetime.timedelta(days=6)
+print('\nDate:', order_supplies)
+time.sleep(2)
+print("Order any supplies not available locally.")
+time.sleep(2)
+
+screening_call = current_date + datetime.timedelta(days=8)
+print('\nDate:', screening_call)
+time.sleep(2)
+print('Screening Call: Answer any questions from the shelter adoption coordinator.')
+time.sleep(2)
+
+orders_arrive = current_date + datetime.timedelta(days=9)
+print('\nDate:', orders_arrive)
+time.sleep(2)
+print('The supplies you ordered should have arrived.')
+time.sleep(2)
+
+outdoor_space = current_date + datetime.timedelta(days=10)
+print('\nDate:', outdoor_space)
+time.sleep(2)
+print("Dog-proof your outdoor space, including your car.")
+time.sleep(2)
+
+indoor_space = current_date + datetime.timedelta(days=11)
+print('\nDate:', indoor_space)
+time.sleep(2)
+print("Dog-proof your indoor space.")
+time.sleep(2)
+
+notification = current_date + datetime.timedelta(days = 13)
+print('\nDate:', notification)
+time.sleep(2)
+print('Notification received! Your application has been approved!')
+time.sleep(2)
+
+come_home = current_date + datetime.timedelta(days = 14)
+print('\nDate:', come_home)
+time.sleep(2)
+print("Today's the day! Bring home your new furry friend!")
+time.sleep(2)
